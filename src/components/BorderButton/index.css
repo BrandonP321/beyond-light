@@ -1,9 +1,8 @@
 .border-button {
     color: white;
-    /* padding-top: .5rem;
-    padding-bottom: .5rem; */
     position: relative;
     border: none;
+    transition: background-color .25s;
 }
 
 .border-button:after {
@@ -13,14 +12,42 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid #29a7ff;
     box-sizing: border-box;
+    transition: all .25s;
 }
 
 .border-button:hover {
     cursor: pointer;
 }
 
+.border-button:hover:after {
+    top: -5px;
+    left: -5px;
+    height: calc(100% + 10px);
+    width: calc(100% + 10px);
+}
+
 .border-button.blue {
     background-color: rgba(41, 167, 255, .5);
+}
+
+.border-button.blue:after {
+    border: 1px solid #29a7ff;
+}
+
+.border-button.blue:hover {
+    background-color: rgba(41, 167, 255, 1);
+}
+
+.border-button.gray {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.border-button.gray:after {
+    border: 1px solid #eaeaea42;
+}
+
+.border-button.gray:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
 }
