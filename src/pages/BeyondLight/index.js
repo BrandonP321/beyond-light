@@ -57,6 +57,31 @@ export default function BeyondLight() {
                     <p>Track down and defeat the elite lieutenants of Eramis in these challenging missions that offer Powerful and Pinnacle rewards.</p>
                 </FlexSection.FlexItem>
             </FlexSection>
+            <FlexSection
+                className='gear-section'
+                height='130vh'
+                contentTranslation='45vh'
+                backgroundImg='https://i.imgur.com/k9yBjaL.jpg'
+                smallHeading='GEAR'
+                heading='UPGRADE YOUR GEAR'
+                sectionBody='The frozen ice of Europa hides countless secrets of the Golden Age, including an arsenal of Legendary and Exotic weapons. Guardian, now is the time to take up arms against the threat of the Fallen.'
+                btnText='LEARN MORE'>
+                <FlexSection.FlexItem className='gear-flex-item'>
+                    <img src='https://i.imgur.com/4g1vmi2.jpg' />
+                    <h3>PLAY YOUR WAY</h3>
+                    <p>With an always-growing pool of Legendary and Exotic gear, your battle plan is only limited by your imagination.</p>
+                </FlexSection.FlexItem>
+                <FlexSection.FlexItem className='gear-flex-item'>
+                    <img src='https://i.imgur.com/SKfWbUI.jpg' />
+                    <h3>WEAPONS</h3>
+                    <p>The enemies of humanity are relentless. Even the odds with Powerful Exotic weapons like Cloudstrike, The Lament, No Time to Explain, and more.</p>
+                </FlexSection.FlexItem>
+                <FlexSection.FlexItem className='gear-flex-item'>
+                    <img src='https://i.imgur.com/1CdZeJD.jpg' />
+                    <h3>ARMOR</h3>
+                    <p>Gauntlets that spread deadly corruption, a mask that cloaks its wearer, and more. Don’t just survive, thrive with an amazing collection of Exotic armor.</p>
+                </FlexSection.FlexItem>
+            </FlexSection>
         </>
     )
 }

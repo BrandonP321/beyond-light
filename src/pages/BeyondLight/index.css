@@ -2,12 +2,30 @@
     width: 26%
 }
 
-.europa-section .section-content {
+.europa-section .section-content,
+.gear-section .section-content {
     width: 100%;
 }
 
 .europa-section .section-content > .section-body {
     width: 630px;
+}
+
+.gear-flex-item {
+    width: 25%;
+}
+
+.gear-flex-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.gear-flex-item > h3 {
+    font-size: 2rem;
+}
+
+.gear-section .section-content > .section-body {
+    width: 600px;
 }
 
 .stasis-flex-item {
