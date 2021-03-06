@@ -1,10 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import BorderButton from '../BorderButton'
 import './index.css'
 
 export default function Header() {
+    const [showHeaderBg, setShowHeaderBg] = useState(window.pageYOffset > 10)
+
+    useEffect(() => {
+        // add window scroll event listener
+        window.addEventListener('scroll', e => {
+            const scrollDistance = window.pageYOffset;
+
+            // if user has scrolled more than 10px
+            if (scrollDistance > 10) {
+                // show header background
+                setShowHeaderBg(true)
+            } else {
+                setShowHeaderBg(false)
+            }
+        })
+    }, [])
+
     return (
-        <header>
+        <header className={showHeaderBg ? ' show-bg' : ''}>
             <div className='content-wrapper'>
                 <div className='header-flex'>
                     <div className='header-logo-wrapper'>

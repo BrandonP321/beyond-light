@@ -3,9 +3,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    /* background-color: #12171c; */
+    background-color: rgba(18, 23, 28, 0);
     padding: 10px;
     z-index: 100;
+    transition: background-color .5s;
+}
+
+header.show-bg {
+    background-color: rgba(18, 23, 28, 1);
 }
 
 .header-flex {
