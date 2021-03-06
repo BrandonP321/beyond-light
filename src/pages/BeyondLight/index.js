@@ -4,6 +4,7 @@ import DeepStoneCryptSection from '../../components/DeepStoneCryptSection'
 import FlexSection from '../../components/FlexSection'
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
+import NextGenSection from '../../components/NextGenSection'
 import StasisSection from '../../components/StasisSection'
 import './index.css'
 
@@ -84,6 +85,7 @@ export default function BeyondLight() {
                 </FlexSection.FlexItem>
             </FlexSection>
             <DeepStoneCryptSection />
+            <NextGenSection />
         </>
     )
 }

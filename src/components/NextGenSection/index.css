@@ -1,0 +1,47 @@
+.next-gen-section {
+    background: url(https://i.imgur.com/hFUPlA9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+
+.next-gen-section .section-content {
+    color: white;
+    width: 100%;
+    transform: translateY(10vh);
+}
+
+.next-gen-section .section-content > h2 {
+    font-size: 4.5rem;
+}
+
+.next-gen-section .section-content > .body {
+    font-weight: 500;
+    width: 700px;
+    margin: 0 auto 70px auto;
+}
+
+.next-gen-section .section-content > .section-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-gen-section .section-content > .section-flex > div {
+    position: relative;
+    width: 30%;
+}
+
+.next-gen-section .section-content > .section-flex > div:nth-child(3) img {
+    position: relative;
+    top: -20px;
+}
+
+.next-gen-section .section-content > .section-flex > div > img {
+}
+
+.next-gen-section .section-content > .section-flex > div > p {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: 0;
+}
