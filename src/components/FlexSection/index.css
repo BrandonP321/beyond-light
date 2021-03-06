@@ -1,0 +1,48 @@
+.flex-section {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    color: white;
+}
+
+.section-content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-section .section-content > h2 {
+    font-size: 4.5rem;
+}
+
+.flex-section .section-content > .section-body {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-section .section-content > .section-heading-divider {
+    width: 100px;
+    height: 1px;
+    margin: 8px auto 0px auto;
+    background-color: rgb(169, 169, 169);
+}
+
+.flex-section .section-content > .section-small-heading {
+    color:rgb(199, 199, 199);
+}
+
+.flex-section .section-content > .section-btn {
+    padding: .9rem 1.5rem;
+}
+
+.flex-section .section-content > .section-btn:after {
+    border-color: white;
+}
+
+.flex-section .section-content > .section-flex-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
