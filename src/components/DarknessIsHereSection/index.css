@@ -1,0 +1,31 @@
+section.darkness-is-here {
+    background: url(https://i.imgur.com/XGklMxh.jpg);
+    height: 100vh;
+}
+
+.darkness-is-here .content {
+    width: 650px;
+    margin: 0 auto;
+    color: white;
+    transform: translate(-105px, 70vh);
+}
+
+.darkness-is-here .content > h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.darkness-is-here .content > .body {
+    font-weight: 500;
+}
+
+.darkness-is-here .content > .small-heading {
+    color: rgb(199, 199, 199);
+}
+
+.darkness-is-here .content .divider {
+    width: 80%;
+    height: 1px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 20px;
+}

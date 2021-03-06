@@ -4,10 +4,6 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 97vh;
-    box-sizing: border-box;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-image: linear-gradient(to right, #31436f, #3c529a, #6b8aab, #31436f);
     border-image-slice: 1;
 }
 
