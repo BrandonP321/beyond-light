@@ -1,0 +1,33 @@
+.raid-section {
+    height: 90vh;
+    background: url(https://i.imgur.com/P4RN4KR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.raid-section .section-content {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    transform: translateY(60vh);
+}
+
+.raid-section .section-content > h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.raid-section .section-content > img {
+    width: 40px;
+}
+
+.raid-section .section-content > .body {
+    width: 600px;
+    font-weight: 500;
+}
+
+.raid-section .section-content > .small-heading {
+    font-weight: 500;
+    color: rgb(219, 219, 219);
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import DarknessIsHereSection from '../../components/DarknessIsHereSection'
+import DeepStoneCryptSection from '../../components/DeepStoneCryptSection'
 import FlexSection from '../../components/FlexSection'
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
@@ -82,6 +83,7 @@ export default function BeyondLight() {
                     <p>Gauntlets that spread deadly corruption, a mask that cloaks its wearer, and more. Don’t just survive, thrive with an amazing collection of Exotic armor.</p>
                 </FlexSection.FlexItem>
             </FlexSection>
+            <DeepStoneCryptSection />
         </>
     )
 }
