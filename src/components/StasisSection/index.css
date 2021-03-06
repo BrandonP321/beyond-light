@@ -1,0 +1,68 @@
+section.stasis-section {
+    background: url(https://i.imgur.com/yEYszDb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    color: white;
+}
+
+.stasis-section .content {
+    transform: translateY(67vh);
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.stasis-section .content > h2 {
+    font-size: 4.5rem;
+}
+
+.stasis-section .content > .body {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.stasis-section .content > .divider {
+    width: 100px;
+    height: 1px;
+    margin: 8px auto 0px auto;
+    background-color: rgb(199, 199, 199);
+}
+
+.stasis-section .content > .small-heading {
+    
+}
+
+.stasis-section .content > .stasis-btn {
+    padding: .9rem 1.5rem;
+}
+
+.stasis-section .content > .stasis-btn:after {
+    border-color: white;
+}
+
+.stasis-section .content > .sub-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stasis-section .content > .sub-flex > div {
+    width: 45%;
+}
+
+.stasis-section .content > .sub-flex h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.stasis-section .content > .sub-flex p {
+    font-weight: 500;
+}
+
+.stasis-section .content > .sub-flex img {
+    display: block;
+    margin: 20px auto;
+    height: 2.5rem;
+}
